@@ -1,0 +1,203 @@
+/*MY STYLE*/
+
+@import url('https://fonts.googleapis.com/css?family=Economica');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Kumar One Outline');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+}
+
+.intro {
+height: 110%;
+width: 100%;
+margin: auto;
+/*background: url(https://wallpaperscraft.com/image/new_york_building_city_skyscrapers_evening_28516_3840x2160.jpg);*/
+background: url(https://lanoirimage.com/wp-content/uploads/2016/10/theater-of-dreams.jpg);
+display: table;
+top:0;
+background-size: cover
+}
+
+.intro inner {
+	display: table-cell;
+	vertical-align: middle;
+	width:100%;
+	max-width: none;
+}
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content h1 {
+	font-family: 'Kumar One Outline', sans-serif;
+	color: #f9f3f4;
+	text-shadow: 5px 5px #333333;
+	font-size: 200%;
+}
+.content h2 {
+	font-family: 'Oswald', sans-serif;
+	color: #f3d780;
+	text-shadow: 5px 5px #333333;
+	font-size: 300%;
+	font-style: italic;
+	text-decoration: none;
+}
+.btn {
+	border-radius: 50px;
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+	font-size: 120%;
+	padding: 10px 20px;
+	border: solid #ffffff 3px;
+	box-shadow: 6px 6px #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover {
+	color: #f3d780;
+	text-shadow: 3px 3px #000000;
+	border: solid #d3d383 3px;
+}
+p {
+	font-size: 100%;
+	line-height: 180%;
+	text-align: center;
+	margin: 1%;
+	font-family: Economica;
+	/*font-style: italic;*/
+	padding: 10px 150px;
+	/*border: solid #666666 1px;*/
+}
+
+
+.full-width-testimonial {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("https://unsplash.it/2000/1200/?image=1011");
+  background-position: center center;
+}
+
+.full-width-testimonial-2{
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("https://i.pinimg.com/736x/fa/dc/b7/fadcb77eb8d9201708864da5c12e3951--beautiful-smile-gorgeous-men.jpg");
+  background-position: center center;
+}
+
+.full-width-testimonial-3{
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("https://www.imoc.it/wp-content/uploads/2015/04/Gaggini-pf.jpg");
+  background-position: center center;
+}
+
+.full-width-testimonial-4{
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.1)), url("https://img1.goodfon.ru/original/1280x800/1/4f/devushka-blondinka-ulybka-2421.jpg");
+  background-position: left center;
+}
+
+.full-width-testimonial-icon .quote-path {
+  fill: none;
+  stroke: #f3d780;
+  stroke-width: 2.5192;
+  stroke-miterlimit: 10;
+}
+
+.full-width-testimonial-content,
+.full-width-testimonial-icon {
+  text-align: center;
+}
+
+.full-width-testimonial-section {
+  padding-top: 2rem;
+}
+
+.full-width-testimonial-section .full-width-testimonial-text {
+  font-family: Economica;
+  font-weight: 300;
+  color: #dddddd;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: -5px
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.5em;
+}
+
+@media print, screen and (min-width: 40em) {
+  .full-width-testimonial-section .full-width-testimonial-text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media print, screen and (min-width: 64em) {
+  .full-width-testimonial-section .full-width-testimonial-text {
+    padding-left: 180px;
+    padding-right: 180px;
+    /*text size*/
+    font-size: 1.3em;
+    text-shadow: 2px 2px #111111;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  .full-width-testimonial-section .full-width-testimonial-text {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+.full-width-testimonial-section .full-width-testimonial-source {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding-bottom: 0;
+  margin-bottom: 0.2em;
+  font-size: 1.0em;
+  text-shadow: 2px 2px #111111;
+}
+
+.full-width-testimonial-section .full-width-testimonial-source-context {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.8em;
+  text-shadow: 2px 2px #111111;
+}
+
+.full-width-testimonial-section .slick-slider {
+  margin-bottom: 0px;
+}
+
+.full-width-testimonial-text,
+.full-width-testimonial-content,
+.full-width-testimonial-source,
+.full-width-testimonial-icon {
+  padding-bottom: 5rem;
+}
+
+.full-width-testimonial-content {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+	.content h2{
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+	p {
+		font-size: 100%;
+		line-height: 160%;
+	}
+}
